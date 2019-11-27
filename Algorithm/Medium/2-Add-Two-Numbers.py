@@ -12,8 +12,11 @@
 # Explanation: 342 + 465 = 807.
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        # init the ListNode with value 0 here
+        # then return headNode.next as the real start node of the LinkList
         headNode = ListNode(0)
-        curr = headNode
+        curr = headNode # shallow copy in python
+
         carry = 0
 
         # it should be OR not AND as a condition
@@ -23,15 +26,22 @@ class Solution:
             else:
                 x = 0
 
+            # shorter one
+            # x = l1.val if l1!=None else 0
+
             if l2!=None:
                 y = l2.val
             else:
                 y = 0
+
+            # y = l2.val if l2!=Npne else 0
             
             sumVal = x + y + carry
-            carry = sumVal // 10
+            carry = sumVal // 10 # use // to get the carry
             curr.next = ListNode(sumVal%10)
             curr = curr.next
+            # pay attention to each conditional judgment
+            # maybe len(l1) > or < or ==  len(l2)
             if l1!=None:
                 l1 = l1.next
             if l2!=None:
