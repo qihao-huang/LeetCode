@@ -2,37 +2,37 @@
 1270 algorithm questions in total, including premium cases.
 
 Difficulty by
-    - easy
-    - medium
-    - hard
+- easy
+- medium
+- hard
 
 Acceptance
 
 Lists by
-    - Top 100 liked Questions
-    - Top Interview Quesitons
+  - Top 100 liked Questions
+  - Top Interview Quesitons
 
 Tags
-    - Array
-    - Hash Tables
-    - Linked List
-    - Math
-    - Two Pointers
-    - String
-    - Binary Search
-    - Divide and Conquer
-    - Dynamic Programming
-    - Backtracking
-    - ......
+  - Array
+  - Hash Tables
+  - Linked List
+  - Math
+  - Two Pointers
+  - String
+  - Binary Search
+  - Divide and Conquer
+  - Dynamic Programming
+  - Backtracking
+  - ......
 
 Company-wise
-    - Facebook
-    - LinkedIn
-    - Amazon
-    - Google
-    - Uber
-    - Apple
-    - ......
+  - Facebook
+  - LinkedIn
+  - Amazon
+  - Google
+  - Uber
+  - Apple
+  - ......
 
 ## Online Resources
 The following are the **BASIS** of undergraduate math and cs courses.
