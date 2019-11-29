@@ -1,5 +1,8 @@
 # LeetCode Solver
-1270 algorithm questions in total, including premium cases.
+
+1270 algorithm questions in total, including free 700+ cases and other premium cases.
+
+Click here for [LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
 
 Difficulty by
 - easy
