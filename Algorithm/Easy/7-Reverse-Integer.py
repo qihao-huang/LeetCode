@@ -58,6 +58,6 @@ class Solution:
 # x = 120 # 21
 # x = -4294967296
 # x = 0 # edge cases
-# x = 901000 # edge cases
+x = 901000 # edge cases
 ret = Solution().reverse(x)
 print(ret)

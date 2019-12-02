@@ -1,16 +1,41 @@
 # The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: 
 # (you may want to display this pattern in a fixed font for better legibility)
 
+# Runtime: 48 ms, faster than 98.61% of Python3 online submissions for ZigZag Conversion.
+# Memory Usage: 12.9 MB, less than 100.00% of Python3 online submissions for ZigZag Conversion.
+
 # help: https://blog.csdn.net/xinxin100011/article/details/81258144
 # FIXME: [string]
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
-        # math pattern or matrix way
+        if numRows == 1:
+            return s
+        
+        rows_num = min(numRows, len(s))
 
+        rows = ['']*rows_num # ['', '', '']
 
+        cur_row = 0
+        go_down = False
+        for x in s:
+            rows[cur_row] += x
+            if cur_row == 0 or cur_row == numRows - 1:
+                go_down = not go_down
+                
+            if go_down:
+                cur_row += 1
+            else:
+                cur_row -= 1
+
+        return ''.join(rows)
+
+        # >>> str = '-'
+        # >>> seq = ('b','o','o','k')
+        # >>> print str.join(seq)
+        # >>> b-o-o-k
 
 s = "PAYPALISHIRING"
-numRows = 4
+numRows = 3
 ret = Solution().convert(s, numRows)
 print(ret)
 
