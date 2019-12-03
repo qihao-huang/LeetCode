@@ -1,9 +1,12 @@
 # LeetCode Solver
 
 ## My Plan
-- First 200: 2019, 11 Nov. - 31 Dec.
-- Each Topics: 2020, 1 Jan. - 18 Jan.
-- Review system(15-213): 2019, 18 Dec. - 2020, 18 Jan.
+- Top 100 Liked Questions and Top Interview Questions: 
+  - 2019, 11 Nov. - 31 Dec.
+- Each Topics: 
+  - 2020, 1 Jan. - 18 Jan.
+- Review system(15-213): 
+  - 2019, 18 Dec. - 2020, 18 Jan.
 - Then:
   - Review OS, Computer Arch., Computer Network, Compiler
 
