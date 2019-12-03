@@ -1,34 +1,69 @@
 # LeetCode Solver
 
+## My Plan
+- First 200: 2019, 11 Nov. - 31 Dec.
+- Each Topics: 2020, 1 Jan. - 18 Jan.
+- Review system(15-213): 2019, 18 Dec. - 2020, 18 Jan.
+- Then:
+  - Review OS, Computer Arch., Computer Network, Compiler
+
+## Misc
 1270 algorithm questions in total, including free 700+ cases and other premium cases.
 
 Click here for [LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
 
-Difficulty by
+### Difficulty by
 - easy
 - medium
 - hard
 
-Acceptance
+### Acceptance
 
-Lists by
+### Lists by
   - Top 100 liked Questions
   - Top Interview Quesitons
 
-Tags
+### Tags/Topics
   - Array
-  - Hash Tables
-  - Linked List
-  - Math
-  - Two Pointers
-  - String
-  - Binary Search
-  - Divide and Conquer
   - Dynamic Programming
+  - Math
+  - String
+  - Tree
+  - Hash Table
+  - Greedy
+  - Two Pointers
+  - Breadth-first Search
+  - Stack
   - Backtracking
-  - ......
+  - Design
+  - Bit Manipulation
+  - Sort
+  - Graph
+  - Linked List
+  - Heap
+  - Union Find
+  - Sliding Window
+  - Divide and Conquer
+  - Trie
+  - Recursion
+  - Segment Tree
+  - Ordered Map
+  - Queue
+  - Minimax
+  - Binary Indexed Tree
+  - Random
+  - Topological Sort
+  - Brainteaser
+  - Geometry
+  - Line Sweep
+  - Binary Search Tree
+  - Rejection Sampling
+  - Reservoir Sampling
+  - Memorization
+  - Rolling Hash
+  - Suffix Array
 
-Company-wise
+### Company-wise
   - Facebook
   - LinkedIn
   - Amazon
