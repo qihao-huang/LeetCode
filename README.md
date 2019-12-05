@@ -2,7 +2,8 @@
 
 ## My Plan
 - Top 100 Liked Questions and Top Interview Questions: 
-  - 2019, 11 Nov. - 31 Dec.
+  - and first 200 questions. (overlap)
+  - 2019, 26 Nov. - 31 Dec.
 - Each Topics: 
   - 2020, 1 Jan. - 18 Jan.
 - Review system(15-213): 

@@ -15,7 +15,7 @@ class Solution:
     def longestPalindrome(self, s: str) -> str:
         # longest palindromic substring in s
         t = len(s)
-
+        
 
         return 
 
