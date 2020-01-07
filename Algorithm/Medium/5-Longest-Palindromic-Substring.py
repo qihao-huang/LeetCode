@@ -1,4 +1,6 @@
-# Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+# Given a string s, find the longest palindromic substring in s. 
+# You may assume that the maximum length of s is 1000.
+
 # Example 1:
 # Input: "babad"
 # Output: "bab"
@@ -8,21 +10,35 @@
 # Input: "cbbd"
 # Output: "bb"
 
-# help: https://blog.csdn.net/qq_17550379/article/details/84022845
-# help: https://blog.csdn.net/qq_17550379/article/details/84022674
+# Hint 1:
+# How can we reuse a previously computed palindrome to compute a larger palindrome?
+
+# Hint 2:
+# If “aba” is a palindrome, is “xabax” and palindrome? Similarly is “xabay” a palindrome?
+
+# Hint 3:
+# Complexity based hint:
+# If we use brute-force and check whether for every start and end position a substring is 
+# a palindrome we have O(n^2) start - end pairs and O(n) palindromic checks. 
+# Can we reduce the time for palindromic checks to O(1) by reusing some previous computation.
+
+# Manacher 
 # FIXME: [dynamic programming, string]
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         # longest palindromic substring in s
         t = len(s)
         
+        
+        
 
         return 
 
 
 
-s = "babad"
-s = "cbbd"
+s = "babad" # aba
+s = "cbbd" # bb
 
+# len(s) max 1000
 ret = Solution().longestPalindrome(s)
 print(ret)

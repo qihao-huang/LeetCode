@@ -21,8 +21,6 @@ class Solution:
                     return True
             else:
                 return False
-            
-
 
 xx = [
     -10,

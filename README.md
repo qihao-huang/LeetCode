@@ -1,16 +1,5 @@
 # LeetCode Solver
 
-## My Plan
-- Top 100 Liked Questions and Top Interview Questions: 
-  - and first 200 questions. (overlap)
-  - 2019, 26 Nov. - 31 Dec.
-- Each Topics: 
-  - 2020, 1 Jan. - 18 Jan.
-- Review system(15-213): 
-  - 2019, 18 Dec. - 2020, 18 Jan.
-- Then:
-  - Review OS, Computer Arch., Computer Network, Compiler
-
 ## Misc
 1270 algorithm questions in total, including free 700+ cases and other premium cases.
 
