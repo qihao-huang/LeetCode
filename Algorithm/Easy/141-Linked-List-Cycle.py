@@ -24,14 +24,7 @@ class Solution:
         except:
             return False
 
-def stringToIntegerList(input):
-    import json
-    return json.loads(input)
-
-def stringToListNode(input):
-    # Generate list from the input
-    numbers = stringToIntegerList(input)
-
+def stringToListNode(numbers):
     # Now convert that list into linked list
     dummyRoot = ListNode(0)
     ptr = dummyRoot
@@ -42,33 +35,8 @@ def stringToListNode(input):
     ptr = dummyRoot.next
     return ptr
 
-
-def main():
-    import sys
-    import io
-    def readlines():
-        for line in io.TextIOWrapper(sys.stdin.buffer, encoding='utf-8'):
-            yield line.strip('\n')
-
-    lines = readlines()
-    while True:
-        try:
-            line = next(lines)
-            head = stringToListNode(line)
-            line = next(lines)
-            pos = int(line)
-            
-            ret = Solution().hasCycle(head, pos)
-
-            out = (ret)
-            print(out)
-        except StopIteration:
-            break
-
-if __name__ == '__main__':
-    main()
-
-# head = [3,2,0,-4]
-# pos = 1
-# ret = Solution().hasCycle(head, pos)
-# print(ret)
+head = [3,2,0,-4]
+pos = 1
+ret = Solution().hasCycle(head, pos)
+out = (ret)
+print(out)
