@@ -1,50 +1,57 @@
 # LeetCode Solver
 
-### Difficulty by
-- easy
-- medium
-- hard
+## 哈希表：
+最长回文串
+找到映射序列
+重复
+森林中的兔子
+基础计算器
+重排字符串k距分隔
 
-### Lists by
-  - Top 100 liked Questions
-  - Top Interview Quesitons
+## 动态规划：
+最长上升连续子序列
+推多米诺
+供应场
+书籍复印
+单词拆分
+超级洗衣机
 
-### Tags/Topics
-  - Array
-  - Dynamic Programming
-  - Math
-  - String
-  - Tree
-  - Hash Table
-  - Greedy
-  - Two Pointers
-  - Breadth-first Search
-  - Stack
-  - Backtracking
-  - Design
-  - Bit Manipulation
-  - Sort
-  - Graph
-  - Linked List
-  - Heap
-  - Union Find
-  - Sliding Window
-  - Divide and Conquer
-  - Trie
-  - Recursion
-  - Segment Tree
-  - Ordered Map
-  - Queue
-  - Minimax
-  - Binary Indexed Tree
-  - Random
-  - Topological Sort
-  - Brainteaser
-  - Geometry
-  - Line Sweep
-  - Binary Search Tree
-  - Rejection Sampling
-  - Reservoir Sampling
-  - Memorization
-  - Rolling Hash
-  - Suffix Array
+## BFS：
+坐缆车
+超级迷宫
+最小高度树
+最短的桥
+小财迷走迷宫
+湖面逃跑
+
+## DFS：
+绘制填充
+停在原地的方案数
+喧闹和富有
+旅行计划
+尽可能减少恶意软件的传播
+连接词
+
+## 递归：
+二叉树的后序遍历
+列表扁平化
+用递归打印数字
+字符串解码
+最大子串
+
+
+## 二分法：
+山形数组的顶峰坐标
+硬币摆放
+子数组的最大平均值 II
+查找最大因子
+地图跳跃
+拆分子数组
+
+## 字符串：
+寻找字母
+出勤判断
+在LR字符串中交换相邻字符
+查找和替换模式
+三等分
+独特字符串
