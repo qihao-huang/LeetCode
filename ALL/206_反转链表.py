@@ -18,3 +18,15 @@ class Solution:
             cur = tmp
 
         return pre
+
+        # pre = None
+        # cur = head
+
+        # while cur:
+        #     tmp = cur.next
+        #     cur.next = pre
+        #     pre = cur
+        #     cur = tmp
+
+        # return pre
+
