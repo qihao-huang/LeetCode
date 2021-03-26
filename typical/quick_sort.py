@@ -23,5 +23,4 @@ def swap(arr, i, j):
     arr[i], arr[j] = arr[j], arr[i]
 
 
-
 # quickSort([4,5,1,2, 0, 10, ])
